@@ -33,7 +33,7 @@ function Navbar() {
             durum && "lg:hidden"
           } lg:fixed lg:top-0 -z-20  lg:flex-col lg:w-full lg:bg-[#171717]  lg:h-[450px] lg:left-0 h-full lg:items-start  lg:pl-6  cursor-pointer lg:pt-20`}
         >
-          <ul className=" flex gap-10 text-3xl mr-4 lg:flex-col lg:gap-6 ">
+          {/* <ul className=" flex gap-10 text-3xl mr-4 lg:flex-col lg:gap-6 ">
             <li className="bla">
               <AnchorLink href="#home">🛖Home</AnchorLink>
             </li>
@@ -43,7 +43,7 @@ function Navbar() {
             <li className="bla">
               <AnchorLink href="#projects">🗂️Projects</AnchorLink>
             </li>
-          </ul>
+          </ul> */}
 
           <div className="icon text-lg flex gap-4  lg:gap-8 lg:my-10">
             <a href="https://twitter.com/reayhs" target="_blank">

@@ -23,10 +23,12 @@ function Header() {
             </div> */}
             <h1 className="text-white text-5xl font-bold">Hi! I'm Benjamin</h1>
             <p className="text-white py-4 max-w-lg ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. In qui
-              impedit sunt, est molestiae ullam. Saepe voluptatum ducimus
-              adipisci pariatur. adipisicing elit. In qui impedit ipsum dolor
-              sit amet consectetur
+              Hi there! I'm a front end developer who's been around the block
+              (or should I say, around the code?) with Next.js, React.js, and
+              Angular. I can create pixel-perfect designs faster than a speeding
+              bullet and my TypeScript skills are sharp enough to cut through
+              even the most complex codebases. Bonus points if you can keep up
+              with my SpringBoot dance moves.
             </p>
             <button className="  text-white text-2xl">
               Let's Connect{" "}
