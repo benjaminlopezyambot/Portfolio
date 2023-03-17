@@ -26,7 +26,7 @@ function Navbar() {
   return (
     <>
       <div className="navbarcon flex justify-between items-center px-20 py-6 bg-transparent z-40 text-white lg:px-6 fixed w-full">
-        <h1 className="text-4xl  font-bold ">Reayhs</h1>
+        <h1 className="text-4xl  font-bold ">🚀Bly.</h1>
 
         <nav
           className={` flex justify-center items-center gap-x-10 ${
@@ -35,13 +35,13 @@ function Navbar() {
         >
           <ul className=" flex gap-10 text-3xl mr-4 lg:flex-col lg:gap-6 ">
             <li className="bla">
-              <AnchorLink href="#home">Home</AnchorLink>
+              <AnchorLink href="#home">🛖Home</AnchorLink>
             </li>
             <li className="bla">
-              <AnchorLink href="#skills">Skills</AnchorLink>
+              <AnchorLink href="#skills">🛠️Skills</AnchorLink>
             </li>
             <li className="bla">
-              <AnchorLink href="#projects">Projects</AnchorLink>
+              <AnchorLink href="#projects">🗂️Projects</AnchorLink>
             </li>
           </ul>
 
