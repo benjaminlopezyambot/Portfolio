@@ -45,23 +45,38 @@ function Navbar() {
             </li>
           </ul> */}
 
-          <div className="icon text-lg flex gap-4  lg:gap-8 lg:my-10">
-            <a href="https://twitter.com/reayhs" target="_blank">
-              <i className="fa-brands fa-twitter border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
-            </a>
-
-            <a href="https://www.instagram.com/iburakz/" target="_blank">
-              <i className="fa-brands fa-instagram border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
-            </a>
+          <div className="con text-lg flex gap-4  lg:gap-8 lg:my-10">
             <a
-              href="https://github.com/Reayhs/react-tailwind-portfolio"
+              href="https://www.facebook.com/Benjamine.Lopez08"
               target="_blank"
             >
-              <i className="fa-brands fa-github border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
+              <i
+                className="fa-brands border border-gray-400 fa-facebook text-gray-200 flex items-center justify-center w-10 h-10 hover:border-white hover:text-white  
+            hover:rounded-xl rounded-3xl duration-300 ease-linear  transition-all "
+              ></i>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/benjamin-yambot-997086132/"
+              target="_blank"
+            >
+              <i
+                className="fa-brands fa-linkedin text-gray-200 flex items-center justify-center w-10 h-10  border border-gray-400 hover:border-white  hover:text-white
+            hover:rounded-xl rounded-3xl duration-300 ease-linear  transition-all "
+              ></i>
+            </a>
+            <a
+              href="https://github.com/benjaminlopezyambot/Portfolio"
+              target="_blank"
+            >
+              <i
+                className="fa-brands fa-github text-gray-200 flex items-center justify-center w-10 h-10  border border-gray-400 hover:text-white hover:border-white
+            hover:rounded-xl rounded-3xl duration-300 ease-linear  transition-all "
+              ></i>
             </a>
           </div>
           <div className="btn">
-            <button className="border-[1px] border-white border-solid py-2 px-4 hover:bg-white hover:text-black font-bold">
+            <button className="border-[1px] hover:rounded-xl rounded-3xl  duration-300 ease-linear  transition-all  hover:border-cyan-300 border-white border-solid py-2 px-4  hover:text-cyan-300 font-bold">
               Let's Connect
             </button>
           </div>

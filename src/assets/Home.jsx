@@ -9,10 +9,10 @@ function Home() {
   return (
     <>
       <Header />
-      {/* <Skills/> 
-     <Projects/>
-     <Contact/> */}
-      {/* <Footer /> */}
+      {/* <Skills/>  */}
+      <Projects />
+      <Contact />
+      <Footer />
     </>
   );
 }

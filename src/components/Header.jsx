@@ -30,7 +30,7 @@ function Header() {
               even the most complex codebases. Bonus points if you can keep up
               with my SpringBoot dance moves.
             </p>
-            <button className="  text-white text-2xl">
+            <button className=" hover:text-2xl duration-300 ease-linear  transition-all  text-white text-xl">
               Let's Connect{" "}
               <i className="fa-solid fa-arrow-right text-lg  p-[2px] "></i>{" "}
             </button>

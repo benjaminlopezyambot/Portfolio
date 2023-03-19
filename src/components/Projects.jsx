@@ -12,37 +12,37 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Business Startup",
+      title: "The1Shop",
       description: "Design & Development",
       img: img1,
     },
     {
       id: 2,
-      title: "Business Startup",
+      title: "GasFinder",
       description: "Design & Development",
       img: img2,
     },
     {
       id: 3,
-      title: "Business Startup",
+      title: "MySky Cable",
       description: "Design & Development",
       img: img3,
     },
     {
       id: 4,
-      title: "Business Startup",
+      title: "Medicard",
       description: "Design & Development",
       img: img2,
     },
     {
       id: 5,
-      title: "Business Startup",
+      title: "NTN Dining",
       description: "Design & Development",
       img: img3,
     },
     {
       id: 6,
-      title: "Business Startup",
+      title: "Malaysian Lottery",
       description: "Design & Development",
       img: img1,
     },
@@ -67,7 +67,7 @@ function Projects() {
           >
             Projects
           </button>
-          <button
+          {/* <button
             onClick={() => setDurum(2)}
             className={`font-bold text-[19px] border-2  bg-[#171717] rounded-[6px] p-[4px] ${
               durum === 2 ? "bg-[linear-gradient(90deg,#b004b0,#38097a)]" : ""
@@ -82,7 +82,7 @@ function Projects() {
             }`}
           >
             Text-2
-          </button>
+          </button> */}
         </div>
         <div className="grid grid-cols-3 p-10 justify-center items-center gap-8 lg:grid-cols-2 tl:grid-cols-1  ">
           {durum === 1
